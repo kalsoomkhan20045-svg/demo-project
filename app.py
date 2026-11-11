@@ -39,3 +39,5 @@ print("Student Details:", student_info)
 print("Course Subjects List:")
 for subject in subjects:
     print("-", subject)
+    student_name=("saba,kanwal,anila","nida,munaza,sakina")
+print(student_name)
