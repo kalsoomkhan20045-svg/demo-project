@@ -30,3 +30,12 @@ cities=("lahore,karachi,multan")
 print(cities)
 subjects=["English","Urdu","Math","Science","Computer"]
 print("Subjects:",subjects)
+student_info = {
+    "name": "Kalsoom",
+    "course": "AI & ML",
+    "status": "Active"
+}
+print("Student Details:", student_info)
+print("Course Subjects List:")
+for subject in subjects:
+    print("-", subject)
